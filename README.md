@@ -1,6 +1,8 @@
 # BST_visualizer_PyQt
 binary search tree visualizer written in Python + PyQt5
 
+![UI](bst_ui.png)
+
 ## Compilation
 
 Use **Python 3.9+** to compile `bst_visualizer.py`, **PyQt5** required.
