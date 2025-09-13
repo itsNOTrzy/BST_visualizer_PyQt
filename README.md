@@ -5,11 +5,17 @@ binary search tree visualizer written in Python + PyQt5
 
 Use **Python 3.9+** to compile `bst_visualizer.py`, **PyQt5** required.
 
-```shell
+```bash
 brew install python3.10
 pip install pyqt5
 ```
 
-```shell
+```bash
 python bst_visualizer.py
+```
+
+EXE files are made with `PyInstaller`:
+```bash
+pip install pyinstaller
+pyinstaller -F bst_visualizer.py
 ```
